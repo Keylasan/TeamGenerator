@@ -116,7 +116,7 @@ function menu(){
             break;
             case "Continue":
             let html = render(employees);
-            fs.writeFile("./output/team.html",html, err =>{
+            fs.writeFile("team.html",html, err =>{
                 if (err){
                     throw err;
                 }
